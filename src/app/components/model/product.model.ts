@@ -5,4 +5,4 @@ export interface Product {
     quantity: number;
     selected: boolean;
     available: boolean;
-}
+}   
