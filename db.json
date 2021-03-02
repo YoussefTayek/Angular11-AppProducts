@@ -2,27 +2,27 @@
   "products": [
     {
       "id": 1,
-      "name": "Computer",
-      "price": 4300,
-      "quantity": 600,
-      "selected": true,
-      "available": true
-    },
-    {
-      "id": 4,
-      "name": "Smatphone",
+      "name": "Computers",
       "price": 4300,
       "quantity": 600,
       "selected": false,
       "available": true
     },
     {
+      "id": 2,
       "name": "printer",
       "price": "1000",
-      "quantity": "5",
+      "quantity": "100",
       "selected": false,
-      "available": true,
-      "id": 5
+      "available": true
+    },
+    {
+      "name": "T",
+      "price": "200",
+      "quantity": "20",
+      "selected": true,
+      "available": false,
+      "id": 3
     }
   ]
 }

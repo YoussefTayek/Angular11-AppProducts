@@ -4,9 +4,12 @@ import { ActionEvent } from './product.state';
 
 
 @Injectable ({providedIn:"root"})
-export class EventDriverService{
+export class EventDrivenService{
     sourceEventSubject:Subject<ActionEvent>=new Subject<ActionEvent>();
     sourceEventSubjectObservable=this.sourceEventSubject.asObservable();
+
+    sourceEventSubject2:Subject<ActionEvent>=new Subject<ActionEvent>();
+    sourceEventSubjectObservable2=this.sourceEventSubject.asObservable();
 
     publishEvent(event:ActionEvent){
         this.sourceEventSubject.next(event);
